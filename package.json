@@ -1,0 +1,18 @@
+{
+  "name": "fmtpaste",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev":   "zig build wasm && vite",
+    "build": "zig build wasm && vite build",
+    "wasm":  "zig build wasm"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  }
+}
