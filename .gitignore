@@ -3,3 +3,5 @@ TODO.md
 node_modules/
 zig-out/
 testdata/
+zls.json
+dist/
