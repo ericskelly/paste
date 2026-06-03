@@ -9,7 +9,7 @@
   "scripts": {
     "dev":   "zig build wasm && vite",
     "build": "zig build wasm && vite build",
-    "vite_build": "vite build",
+    "vite-build": "vite build",
     "wasm":  "zig build wasm"
   },
   "devDependencies": {
